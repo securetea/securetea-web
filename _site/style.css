@@ -277,7 +277,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('https://jishnurippon.github.io/securetea-web/img/banner.jpg');
+    background-image: url('/agency-jekyll-theme//img/banner.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -666,7 +666,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('https://jishnurippon.github.io/securetea-web/img/map-image.png');
+    background-image: url('/agency-jekyll-theme//img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -811,6 +811,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
+
 }
 
 .portfolio-modal .modal-content img {
@@ -876,5 +877,17 @@ body {
 .logo{
     width: 20px;
     height: 30px;
+}
+.footer-policy{
+    color:black;
+}
+.footer-policy:hover{
+    color:blue;
+} 
+.footer-terms{
+    color:black;
+}
+.footer-terms:hover{
+    color:blue;
 }
 

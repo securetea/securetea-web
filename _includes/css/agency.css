@@ -803,6 +803,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
+
 }
 
 .portfolio-modal .modal-content img {
@@ -868,4 +869,16 @@ body {
 .logo{
     width: 20px;
     height: 30px;
+}
+.footer-policy{
+    color:black;
+}
+.footer-policy:hover{
+    color:blue;
+} 
+.footer-terms{
+    color:black;
+}
+.footer-terms:hover{
+    color:blue;
 }

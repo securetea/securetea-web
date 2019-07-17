@@ -1,5 +1,5 @@
 securetea-web
-WEbsite for securetea.org
+Website for securetea.org
 ====================
 
 # How to use
@@ -13,5 +13,3 @@ Images are in '/img/about/'
 Team members and info are in '_config.yml'
 
 Images are in '/img/team/'
-
-

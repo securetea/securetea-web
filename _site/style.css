@@ -277,7 +277,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('https://jishnurippon.github.io/securetea-web/img/banner.jpg');
+    background-image: url('img/banner.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -290,7 +290,6 @@ header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
 }
-
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
@@ -666,7 +665,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('https://jishnurippon.github.io/securetea-web/img/map-image.png');
+    background-image: url('https://jishnurippon.github.io/securetea-web//img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -874,7 +873,12 @@ body {
     webkit-tap-highlight-color: #fed136;
 }
 .logo{
-    width: 20px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
+    position: center;
+    margin-right: 10px;
+    float: left;
+    cursor: pointer;
 }
+
 

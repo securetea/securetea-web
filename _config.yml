@@ -1,5 +1,6 @@
 url: https://y7kim.github.io
-baseurl: https://jishnurippon.github.io/securetea-web
+baseurl: https://jishnurippon.github.io/securetea-web/
+# for indivitual test use this url /agency-jekyll-theme/
 
 # Site settings
 title: OWASP SecureTea

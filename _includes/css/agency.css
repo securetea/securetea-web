@@ -738,6 +738,7 @@ footer ul.quicklinks {
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
     line-height: 40px;
+    color: #000000	
 }
 
 ul.social-buttons {
@@ -871,4 +872,10 @@ body {
     margin-right: 10px;
     float: left;
     cursor: pointer;
+}
+.quicklinksc{
+    color : #000000;
+}
+.quicklinksc:hover{
+    color : #4089ff;
 }

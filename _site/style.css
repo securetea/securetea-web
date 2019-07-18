@@ -184,15 +184,17 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: Concert One;
     color: white;
+    text-shadow: 0.5px .05px #0757E0;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #0757E0;
+    text-shadow: 1px 1px white;
 }
 
 .navbar-default .navbar-collapse {
@@ -216,7 +218,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-weight: 900;
     letter-spacing: 1px;
     color: #fff;
     -webkit-transition: all ease .35s;
@@ -227,7 +229,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #0757E0;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -277,7 +279,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('img/banner.jpg');
+    background-image: url('img/banner.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;

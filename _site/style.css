@@ -74,7 +74,7 @@ h6 {
 }
 
 .bg-darkest-gray {
-    background-color: #222;
+    background-color: #e6e6ff;
 }
 
 .btn-primary {
@@ -128,14 +128,13 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #0538E3;
-    background-color: #fed136;
+    color: #3333ff;
+    background-color: white;
 }
 
 .btn-xl:hover,
@@ -143,9 +142,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #fed136;
-    color: #fff;
-    background-color: #fec503;
+    color: white;
+    background-color: #3333ff;
 }
 
 .btn-xl:active,
@@ -180,23 +178,29 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #e6e6ff;
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: Concert One;
     color: white;
+    text-shadow: 0.5px .05px #0757E0;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+<<<<<<< HEAD
+    color: #3333ff;
+=======
+    color: #0757E0;
+    text-shadow: 1px 1px white;
+>>>>>>> e7a4e402567df9f7ea54fbf345b8c743614de190
 }
 
 .navbar-default .navbar-collapse {
-    border-color: rgba(255,255,255,.02);
+    border-color: blue;
 }
 
 .navbar-default .navbar-toggle {
@@ -216,7 +220,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-weight: 900;
     letter-spacing: 1px;
     color: #fff;
     -webkit-transition: all ease .35s;
@@ -227,13 +231,18 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+<<<<<<< HEAD
+    font-weight: 500;
+    color: #fff;
+=======
+    color: #0757E0;
+>>>>>>> e7a4e402567df9f7ea54fbf345b8c743614de190
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
-    background-color: #fed136;
+    color: #3333ff;
+    background-color: white;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -265,7 +274,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #505050;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -277,7 +286,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('/agency-jekyll-theme//img/banner.jpg');
+    background-image: url('img/banner.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -665,7 +674,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('/agency-jekyll-theme//img/map-image.png');
+    background-image: url('https://jishnurippon.github.io/securetea-web//img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -835,7 +844,7 @@ ul.social-buttons li a:active {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #222;
+    background-color: #e6e6ff;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -845,7 +854,7 @@ ul.social-buttons li a:active {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #222;
+    background-color: #e6e6ff;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);

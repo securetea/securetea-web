@@ -668,7 +668,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('https://jishnurippon.github.io/securetea-web//img/map-image.png');
+    background-image: url('/agency-jekyll-theme//img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }

@@ -329,7 +329,7 @@ section {
 }
 
 section h2.section-heading {
-    margin-top: 0;
+    margin-top: 40px;
     margin-bottom: 15px;
     font-size: 40px;
 }
@@ -739,6 +739,7 @@ footer ul.quicklinks {
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
     line-height: 40px;
+    color: #000000	
 }
 
 ul.social-buttons {
@@ -872,4 +873,23 @@ body {
     margin-right: 10px;
     float: left;
     cursor: pointer;
+}
+.quicklinksc{
+    color : #000000;
+}
+.quicklinksc:hover{
+    color : #4089ff;
+}
+.func{
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #{{ site.data.template.color.secondary-dark }};
+}
+.inst{
+    text-align: left;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #{{ site.data.template.color.secondary-dark }};
+
+}
+.codebg{
+    background-color: #e6e6ff;
 }

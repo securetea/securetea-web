@@ -873,3 +873,10 @@ body {
     float: left;
     cursor: pointer;
 }
+.chat{
+    color: white;
+    margin-left: 10px;
+}
+.chat:hover{
+    cursor: pointer;
+}

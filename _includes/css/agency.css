@@ -890,3 +890,6 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 
 }
+.codebg{
+    background-color: #e6e6ff;
+}

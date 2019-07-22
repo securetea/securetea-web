@@ -276,9 +276,9 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #2204B8;
     background-attachment: scroll;
-    background-image: url('img/banner.gif');
+    background-image: url('img/banner.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -300,12 +300,14 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    font-color: blue;
+    text-shadow: 0 0 5px #FFFFFF;
 }
 
 @media(min-width:768px) {
@@ -881,5 +883,11 @@ body {
     float: left;
     cursor: pointer;
 }
-
+.chat{
+    color: white;
+    margin-left: 10px;
+}
+.chat:hover{
+    cursor: pointer;
+}
 

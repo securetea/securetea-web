@@ -668,7 +668,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('https://jishnurippon.github.io/securetea-web//img/map-image.png');
+    background-image: url('/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -890,5 +890,14 @@ body {
 }
 .chat:hover{
     cursor: pointer;
+}
+.footer-link{
+    color:  #1b1a17;
+}
+.footer-link:hover{
+    color:  #FFFFFF;
+}
+.foo-bg{
+    background-color: #949999;
 }
 

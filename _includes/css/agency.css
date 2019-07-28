@@ -883,3 +883,12 @@ body {
 .chat:hover{
     cursor: pointer;
 }
+.footer-link{
+    color:  #1b1a17;
+}
+.footer-link:hover{
+    color:  #FFFFFF;
+}
+.foo-bg{
+    background-color: #949999;
+}

@@ -6,19 +6,19 @@ description: |
 owner: OWASP 
 first_published: 2019 
 email: "your-email@domain.com"
-baseurl: https://jishnurippon.github.io/securetea-web/
-url: "http://yourdomain.com" 
+baseurl: "https://jishnurippon.github.io/securetea-web/" 
+url: "" 
 # https://jishnurippon.github.io/securetea-web/
 social:
   twitter: https://twitter.com/<username>
-  github: https://github.com/<username>
+  github: https://github.com/OWASP/SecureTea-Project.git
   linkedin-square: https://linkedin.com/in/<username>
   facebook-official: https://facebook.com/<username>
-  google-plus-square: https://plus.google.com/u/0/+<username>
+  google-plus-square: https://summerofcode.withgoogle.com/organizations/6362925392986112/
   #email: /contact/
   #flickr:
   #instagram:
-  #youtube-square:
+  youtube-square: https://www.youtube.com/channel/UCGdl9tpc1qZYcM3WRRFRPPA
   #spotify:
   #stack-overflow:
   #vimeo:

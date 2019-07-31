@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-securetea-web
-Website for securetea.org
-====================
-
-# How to use
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-=======
 #securetea-web Website for securetea.org
 
 SecureTea-Web is the website for OWASP SecureTea Project which is an 
@@ -84,4 +67,3 @@ Credits:
 		Misc. Sass functions (@HugoGiraudel)
 		Respond.js (j.mp/respondjs)
 		Skel (skel.io)
->>>>>>> 5d11818075a93d3a4b2b179bd9d0c3fff104d729

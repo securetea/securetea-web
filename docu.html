@@ -2,78 +2,170 @@
 layout: page
 title: Documentation
 ---
-			<section>
-				<h4>SecureTea Project</h4>
-				<p>The OWASP SecureTea Project is an application designed to help secure a person's laptop or computer / server with IoT (Internet Of Things) and notify users (via various communication mechanisms), whenever someone accesses their computer / server. This application uses the touchpad/mouse/wireless mouse to determine activity and is developed in Python and tested on various machines (Linux, Mac & Windows).</p>
-				<hr />
-				<header>
-					<h4>Target User
-					</h4>
-					
-				</header>
-				<p>It was written to be used by anyone who is interested in IoT Security (Internet of Things) and still needs further development.
 
-				</p>
-				<header>
-					<h5>How it functions:
-					</h5>
-				</header>
-				<p><ul>Keep track of the movement of the mouse/touchpad
-				</ul>
-			<ul>
-				Detect who accesses your device(laptop/server/other iot device) with mouse/touchpad installed.
-			</ul>
-		<ul>
-			Send warning messages on Twitter/Twilio-SMS/Slack/Telegram. More features on the way.
-		</ul></p>
-				<hr />
-				<h2>Heading Level 2</h2>
-				<h3>Heading Level 3</h3>
-				<h4>Heading Level 4</h4>
-				<h5>Heading Level 5</h5>
-				<h6>Heading Level 6</h6>
-				<hr />
-				<h5>Blockquote</h5>
-				<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-				<h5>Preformatted</h5>
-				<pre><code>i = 0;
+<section>
+  <h4>SecureTea Project</h4>
+  <p>
+    The OWASP SecureTea Project is an application designed to help secure a
+    person's laptop or computer / server with IoT (Internet Of Things) and
+    notify users (via various communication mechanisms), whenever someone
+    accesses their computer / server. This application uses the
+    touchpad/mouse/wireless mouse to determine activity and is developed in
+    Python and tested on various machines (Linux, Mac & Windows).
+  </p>
+  <hr />
+  <header>
+    <h4>Target User</h4>
+  </header>
+  <p>
+    It was written to be used by anyone who is interested in IoT Security
+    (Internet of Things) and still needs further development.
+  </p>
+  <header>
+    <h5>How it functions:</h5>
+  </header>
+  <p></p>
+  <ul>
+    <li>
+      Keep track of the movement of the mouse/touchpad
+    </li>
+    <li>
+      Detect who accesses your device(laptop/server/other iot device) with
+      mouse/touchpad installed.
+    </li>
+    <li>
+      Send warning messages on Twitter/Twilio-SMS/Slack/Telegram. More features
+      on the way.
+    </li>
+  </ul>
+  <hr />
+  <h5>AFTER INSTALLATION</h5>
+  <p>
+    <b>Configuring SecureTea</b><br />
+    Editing the configurations using a text-editor
+  </p>
+  <div class="overflow-auto" style="height: 200px; overflow: scroll;">
+    <pre><code>
+			"twitter": {
+				"api_key": "XXXX",
+				"api_secret_key": "XXXX",
+				"access_token": "XXXX",
+				"access_token_secret": "XXXX"
+			},
+			"telegram": {
+				"token": "XXXX",
+				"user_id": "XXXX"
+			},
+			"twilio": {
+				"twilio_sid": "XXXX",
+				"twilio_token": "XXXX",
+				"twilio_from": "XXXX",
+				"twilio_to": "XXXX"
+			},
+			"slack": {
+				"token": "XXXX",
+				"user_id": "XXXX"
+			},
+			"aws_ses": {
+				"aws_email": "XXXX",
+				"aws_access_key": "XXXX",
+				"aws_secret_key": "XXXX"
+			},
+			"gmail": {
+				"sender_email": "XXXX",
+				"to_email": "XXXX",
+				"password": "XXXX"
+			},
+			"firewall": {
+				"interface": "",
+				"inbound_IPRule": {
+					"action": "0",
+					"ip_inbound": ""
+				},
+				"outbound_IPRule": {
+					"action": "0",
+					"ip_outbound": ""
+				},
+				"protocolRule": {
+					"action": "0",
+					"protocols": "ICMP"
+				},
+				"scanLoad": {
+					"action": "0",
+					"extensions": ".exe"
+				},
+				"source_portRule": {
+					"action": "0",
+					"sports": ""
+				},
+				"dest_portRule": {
+					"action": "0",
+					"dports": ""
+				},
+				"HTTPRequest": {
+					"action": "0"
+				},
+				"HTTPResponse": {
+					"action": "0"
+				},
+				"DNSRule": {
+					"action": "0",
+					"dns": ""
+				},
+				"time": {
+					"time_lb": "00:00",
+					"time_ub": "23:59"
+				}
+			},
+			"insecure_headers": {
+					"url": ""
+			},
+			"ids": {
+				"threshold": 10,
+				"interface": "XXXX"
+			},
+			"server_log": {
+				"log_type": "",
+				"log_file": "",
+				"window": "30",
+				"ip_list": "",
+				"status_code": ""
+			},
+			"auto-server-patcher": {
+				"url": "XXXX",
+				"apache": "1",
+				"sysctl": "1",
+				"login": "1",
+				"ssh": "1"
+			},
+			"antivirus": {
+				"update": "1",
+				"custom-scan": "",
+				"auto-delete": "0",
+				"monitor-usb": "1",
+				"monitor-file-changes": "1",
+				"virustotal-api-key": "XXXX"
+			},
+			"web-deface": {
+				"path": "",
+				"server-name": ""
+			},	
+			"iot-check": {
+				"shodan-api-key": "XXXX",
+				"ip": ""
+			},
+			"debug": false
+					</code>
+				</pre>
+  </div>
+  <hr>
+  <h5>Configuring using interactive setup mode</h5>
+  <div class="img">
+    <img src="/images/setup_all.gif" />
+  </div>
+</section>
 
-while (!deck.isInOrder()) {
-  print 'Iteration ' + i;
-  deck.shuffle();
-  i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-	</section>
-	<section>
-		<h4>Lists</h4>
-				<div class="row">
-					<div class="6u 12u$(medium)">
-						<h5>Unordered</h5>
-						<ul>
-							<li>Dolor pulvinar etiam.</li>
-							<li>Sagittis adipiscing.</li>
-							<li>Felis enim feugiat.</li>
-						</ul>
-						<h5>Alternate</h5>
-						<ul class="alt">
-							<li>Dolor pulvinar etiam.</li>
-							<li>Sagittis adipiscing.</li>
-							<li>Felis enim feugiat.</li>
-						</ul>
-					</div>
-					<div class="6u$ 12u$(medium)">
-						<h5>Ordered</h5>
-						<ol>
-							<li>Dolor pulvinar etiam.</li>
-							<li>Etiam vel felis viverra.</li>
-							<li>Felis enim feugiat.</li>
-							<li>Dolor pulvinar etiam.</li>
-							<li>Etiam vel felis lorem.</li>
-							<li>Felis enim et feugiat.</li>
-						</ol>
-						<h5>Icons</h5>
+<!-- <h5>Icons</h5>
 						<ul class="icons">
 							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -310,4 +402,4 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				<h5>Left &amp; Right</h5>
 				<p><span class="image left"><img src="images/pic04.jpg" alt="" /></span>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien. Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
 				<p><span class="image right"><img src="images/pic05.jpg" alt="" /></span>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius. Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean erat diam, tempus aliquet erat. Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum. Proin mauris dui.</p>
-			</section>
+			</section> -->

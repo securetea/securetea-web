@@ -6,7 +6,7 @@ description: |
 owner: OWASP 
 first_published: 2019 
 email: "your-email@domain.com"
-baseurl: 
+baseurl: "https://jishnurippon.github.io/securetea-web/" 
 url: "https://jishnurippon.github.io/securetea-web/" 
 # https://jishnurippon.github.io/securetea-web/
 social:

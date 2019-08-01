@@ -42,34 +42,18 @@ HELP SECURE A PERSON’S LAPTOP
             <li><a href="index.html">Home</a></li>
             
             
-            <li><a href="/docu.html">Documentation</a></li>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+            <li><a href="docu.html">Documentation</a></li>
           </ul>
       </div>
   </li>
 </ul>
 </nav>
 </header>
-
-
-      <article id="main">
-
+ <article id="main">
   <header>
     <h2>Documentation</h2>
     <p>SECURETEA SECURE YOUR SYSTEM</p>
   </header>
-
   <section class="wrapper style5">
     <div class="inner">
       <section>
@@ -229,8 +213,42 @@ HELP SECURE A PERSON’S LAPTOP
   </div>
   <hr>
   <h5>Configuring using interactive setup mode</h5>
+  <b>Setup all the features</b><br>
+  <code>sudo SecureTea.py</code><br>
+  <p>This will start an interactive setup mode, to skip a particular setup, enter s or S.
+</p>
   <div class="img">
     <img src="/images/setup_all.gif" />
+  </div>
+  <hr>
+  <h5>Setup a particular feature</h5>
+  <p>Arguments list</p><br>
+  <pre>
+	  <code>
+		--telegram     Start Telegram interactive setup
+		--twitter      Start Twitter interactive setup
+		--twilio_sms   Start Twilio SMS interactive setup
+		--firewall     Start Firewall interactive setup
+		--aws_ses      Start Amazon Web Services(AWS-Simple Email Services) interactive setup
+		--gmail        Start G-Mail interactive setup
+	  </code>
+  </pre>
+  <ul>
+	  <li>
+		Starting SecureTea-Firewall interactive setup: 
+		<code>sudo SecureTea.py --firewall</code>
+	  </li>
+  </ul>
+  <div class="img">
+	  <img src="/images/setup_firewall.gif">
+  </div>
+  <hr>
+  <ul>
+	  <li>Starting Telegram & Twitter interactive setup: sudo SecureTea.py --telegram --twitter
+	</li>
+  </ul>
+  <div class="img">
+	  <img src="/images/tele_twi.gif">
   </div>
 </section>
 

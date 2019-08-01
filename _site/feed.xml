@@ -6,10 +6,10 @@
 IS AN APPLICATION DESIGNED TO  
 HELP SECURE A PERSON’S LAPTOP
 </description>
-    <link>http://localhost:4000https://jishnurippon.github.io/securetea-web//</link>
-    <atom:link href="http://localhost:4000https://jishnurippon.github.io/securetea-web//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 31 Jul 2019 23:00:36 +0530</pubDate>
-    <lastBuildDate>Wed, 31 Jul 2019 23:00:36 +0530</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 01 Aug 2019 14:44:27 +0530</pubDate>
+    <lastBuildDate>Thu, 01 Aug 2019 14:44:27 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
   </channel>

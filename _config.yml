@@ -6,14 +6,9 @@ description: |
 owner: OWASP 
 first_published: 2019 
 email: "your-email@domain.com"
-<<<<<<< HEAD
-baseurl: "https://securetea.org/" 
-url: "" 
-=======
-baseurl: "https://securetea.org/"
+baseurl: ""
 url: "https://securetea.org/"
->>>>>>> f8028d4063234e9eb180d2105577a56c60be7e7b
-# https://jishnurippon.github.io/securetea-web/
+# https://securetea.org/
 social:
   twitter: https://twitter.com/secureteatool
   github: https://github.com/OWASP/SecureTea-Project.git

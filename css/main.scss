@@ -1887,13 +1887,10 @@ $baseurl: '{{ site.baseurl }}/images';
   padding-top: 20px;
 }
 .video{
-	margin-top: 5px;
 	margin-left: 5px;
+	padding-top: 50px;
+	padding-bottom: 50px;	
 }
-.wrapper1{
-  	background-color: #ffffff;
-  	opacity: 0.3;
-  	filter: alpha(opacity=90);
-  	border: 0.5px solid white;
-  	height: 300px;
+.video-content{
+	padding-bottom: 50px;
 }

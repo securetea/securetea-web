@@ -1887,5 +1887,10 @@ $baseurl: '{{ site.baseurl }}/images';
   padding-top: 20px;
 }
 .video{
-	padding-top: 20px;
+	margin-left: 5px;
+	padding-top: 50px;
+	padding-bottom: 50px;	
+}
+.video-content{
+	padding-bottom: 50px;
 }

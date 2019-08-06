@@ -6,8 +6,8 @@ description: |
 owner: OWASP 
 first_published: 2019 
 email: "your-email@domain.com"
-baseurl: https://securetea.org/
-url: https://securetea.org/ 
+baseurl: https://securetea.org/ 
+url: https://securetea.org/  
 # https://securetea.org/
 social:
   twitter: https://twitter.com/secureteatool

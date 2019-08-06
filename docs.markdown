@@ -307,7 +307,7 @@ Examples:<br>
 *   [macOS](https://www.apple.com/in/macos/high-sierra/) - Worked
 *   [Ubuntu](https://www.ubuntu.com/) - Worked -->
 
-## Suggestions and Contributions 
+<!-- ## Suggestions and Contributions 
 
 [Contribution Guide](https://github.com/OWASP/SecureTea-Project/blob/master/CONTRIBUTING.md)
 
@@ -318,60 +318,12 @@ Examples:<br>
 *   [Rejah Rehim](https://rejahrehim.com)
 *   [Ananthu S](https://github.com/sananthu)
 *   [Abhishek Sharma](https://github.com/abhisharma404)
-*   [Mishal Shah](https://github.com/mishal23)
+*   [Mishal Shah](https://github.com/mishal23) -->
 
 <!-- ## Chat Group
 
 [![Telegram](https://github.com/OWASP/SecureTea-Project/blob/master/img/telegram.png "Telegram")](https://t.me/joinchat/Az5yZxQg7Djs-UZWKKCRVQ)] -->
 
-## Roadmap
 
-SecureTea Tool Project Features : <br>
-1. Notify by Twitter 
-2. Securetea Dashboard / GUI 
-3. Securetea Protection /firewall
-4. Securetea Antivirus
-5. Intelligent Log Monitoring including Web Defacement and Intrusion Monitoring Tool
-6. Login History 
-7. Notify by Whatsapp
-8. Notify by SMS Alerts
-9. Notify by Line
-10. Notify by Telegram<br>
-11. Notify by Slack<br>
-12. Detection of malicious devices <br>
-
-
-| SecureTea Tool Features  |  Progress 
------------- | -------------
-Notify by Twitter | Yes
-Securetea Dashboard | Yes
-Notify by Telegram | Yes
-Notify by Slack  | Yes
-Notify by SMS Alerts | Yes
-Securetea firewall| Yes<br>
 
 <!-- <img src="https://betanews.com/wp-content/uploads/2016/03/vertical-GSoC-logo.jpg" width="200"></img> -->
-
-## Licence 
-
-[MIT License](LICENSE)
-
-Copyright (c) 2019 SecureTea Project Team - http://owasp.org
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.

@@ -6,8 +6,8 @@ description: |
 owner: OWASP 
 first_published: 2019 
 email: "your-email@domain.com"
-baseurl: https://securetea.org/
-url: https://securetea.org/
+baseurl:
+url:
 # https://securetea.org/
 social:
   twitter: https://twitter.com/secureteatool
@@ -53,3 +53,4 @@ markdown: kramdown
 #sass:
 #  style: compressed
 youtube: https://www.youtube.com/embed/Fsx3H5g_tPQ
+plugins: jekyll-youtube

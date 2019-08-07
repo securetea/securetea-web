@@ -237,6 +237,13 @@ Examples:<br>
 
 -  Starting Telegram & Twitter interactive setup: `sudo SecureTea.py --telegram --twitter`<br><br>
 ![TelegramTwitter](https://raw.githubusercontent.com/OWASP/SecureTea-Project/master/img/tele_twi.gif)<br>
+<hr>
+##### Configuring using Web UI<br><br>
+
+
+![Network graph](https://raw.githubusercontent.com/OWASP/SecureTea-Project/master/img/securetea%20gui.PNG "Secure Tea Dashboard")
+<br><br><br>
+![Network graph](https://raw.githubusercontent.com/OWASP/SecureTea-Project/master/img/securetea%20security%20gui.PNG "Secure Tea Security Dashboard")
 
 <!-- ### Getting Twitter Tokens
 

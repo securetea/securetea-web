@@ -1414,8 +1414,7 @@ $baseurl: '{{ site.baseurl }}/images';
 					font-size: 0.8em;
 				}
 			.top-logo{
-				width: 50px;
-				height: 50px;
+				width: 0.8em;
 			}
 			}
 		}
@@ -1539,8 +1538,7 @@ $baseurl: '{{ site.baseurl }}/images';
 				right: 0;
 			}
 		.logo{
-				width: 50px;
-				height: 50px;
+				width: 1em;
 				position: static;
         		margin-right: 20px;
 			}
@@ -1775,6 +1773,13 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 
+		.summer-code{
+			width: 18px;
+		}
+		.summer-code:hover{
+			content: url("/images/g_summerb.svg");
+		}
+
 		.copyright {
 			color: _palette(fg-light);
 			font-size: 0.8em;
@@ -1881,3 +1886,23 @@ $baseurl: '{{ site.baseurl }}/images';
   left: 4%;
   position: relative;
 }
+
+.install-head{
+  text-align: center;
+  padding-top: 20px;
+}
+.video{
+	margin-left: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.video-content{
+	padding-bottom: 50px;
+}
+.sico{
+	padding-top: 4px;
+}
+
+// .sico:hover{
+// 	background-color: aliceblue;
+// }

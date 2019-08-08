@@ -1902,7 +1902,33 @@ $baseurl: '{{ site.baseurl }}/images';
 .sico{
 	padding-top: 4px;
 }
+  @media (min-width: 560px) {
+    .youtubevid {
+        width: 560px;
+        height: 315px; /* 720px */
+    }
+}
 
+@media (min-width: 560px) and (max-width: 315px) {
+    .youtubevid {
+        width: 640px;
+        height: 360px; /* 480px */
+    }
+}
+
+@media (min-width: 481px) and (max-width: 766px) {
+    .youtubevid {
+        width: 480px;
+        height: 270px; /* 320px */
+    }
+}
+
+@media (max-width: 480px) {
+    .youtubevid {
+        width: 300px;
+        height: 169px; /* 225px */
+    }
+}
 // .sico:hover{
 // 	background-color: aliceblue;
 // }

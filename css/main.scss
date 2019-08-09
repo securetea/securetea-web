@@ -1929,6 +1929,10 @@ $baseurl: '{{ site.baseurl }}/images';
         height: 169px; /* 225px */
     }
 }
+.responsived {
+	max-width: 100%;
+  height: auto;
+  }
 // .sico:hover{
 // 	background-color: aliceblue;
 // }

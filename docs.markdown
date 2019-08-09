@@ -217,7 +217,9 @@ Default configuration:
 1.  Start SecureTea without any parameters:<br>
 `sudo SecureTea.py`<br>
 This will start an interactive setup mode, to skip a particular setup, enter s or S.<br><br>
-![](https://raw.githubusercontent.com/OWASP/SecureTea-Project/master/img/setup_all.gif)<br>
+<img src="images/setup_all.gif" class="responsived">
+<!-- ![](https://raw.githubusercontent.com/OWASP/SecureTea-Project/master/img/setup_all.gif)<br> -->
+
 
 ##### Setup a particular feature
 Arguments list
@@ -233,62 +235,18 @@ Arguments list
 
 Examples:<br>
 -  Starting SecureTea-Firewall interactive setup: `sudo SecureTea.py --firewall`<br><br>
-![Firewall](https://raw.githubusercontent.com/OWASP/SecureTea-Project/master/img/setup_firewall.gif)<br>
+<img src="images/setup_firewall.gif" class="responsived">
 
 -  Starting Telegram & Twitter interactive setup: `sudo SecureTea.py --telegram --twitter`<br><br>
-![TelegramTwitter](https://raw.githubusercontent.com/OWASP/SecureTea-Project/master/img/tele_twi.gif)<br>
+<img src="images/tele_twi.gif" class="responsived">
 <hr>
 ##### Configuring using Web UI<br><br>
 
 
-![Network graph](https://raw.githubusercontent.com/OWASP/SecureTea-Project/master/img/securetea%20gui.PNG "Secure Tea Dashboard")
+<img src="images/securetea gui.png" class="responsived">
 <br><br><br>
-![Network graph](https://raw.githubusercontent.com/OWASP/SecureTea-Project/master/img/securetea%20security%20gui.PNG "Secure Tea Security Dashboard")
+<img src="images/securetea security gui.png" class="responsived">
 
-<!-- ### Getting Twitter Tokens
-
-*   Visit https://apps.twitter.com and "Create new app" to obtain authentication and token codes.
-
-### Getting Twilio Tokens
-
-*   Visit https://www.twilio.com and click on "Get a free API key".
-
-###  Getting Slack Tokens
-
-*   Visit https://api.slack.com/apps/new and create a new bot app.
-*   In the bot app settings, setup event subscriptions by Enabling Events.
-*   Install the bot app in the workspace required.
-*   Get the "Bot User OAuth Access Token", it starts with `xoxb-`
-*   Get your user id for the particular workspace.
-
-## Tested on
-
-*   [TealinuxOS](http://tealinuxos.org/) - Worked
-*   [Deepin](https://www.deepin.org/en/) - Worked
-*   [Raspbian](https://www.raspbian.org/) - Worked
-*   [macOS](https://www.apple.com/in/macos/high-sierra/) - Worked
-*   [Ubuntu](https://www.ubuntu.com/) - Worked -->
-
-<!-- ## Suggestions and Contributions 
-
-[Contribution Guide](https://github.com/OWASP/SecureTea-Project/blob/master/CONTRIBUTING.md)
-
-*   [Ade Yoseman](https://www.owasp.org/index.php/Ade_Yoseman_Putra)
-*   [Bambang Kurniawan](https://www.owasp.org/index.php/User:Idbmb)
-*   [Felex kemboi](https://github.com/felexkemboi/)
-*   [Lojislav Bezimenov](https://github.com/lojikil/)
-*   [Rejah Rehim](https://rejahrehim.com)
-*   [Ananthu S](https://github.com/sananthu)
-*   [Abhishek Sharma](https://github.com/abhisharma404)
-*   [Mishal Shah](https://github.com/mishal23) -->
-
-<!-- ## Chat Group
-
-[![Telegram](https://github.com/OWASP/SecureTea-Project/blob/master/img/telegram.png "Telegram")](https://t.me/joinchat/Az5yZxQg7Djs-UZWKKCRVQ)] -->
-
-
-
-<!-- <img src="https://betanews.com/wp-content/uploads/2016/03/vertical-GSoC-logo.jpg" width="200"></img> -->
 #### Starting Firewall
 Usage:<br>
 ```argument

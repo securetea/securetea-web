@@ -1398,7 +1398,6 @@ $baseurl: '{{ site.baseurl }}/images';
 		h1 {
 			@include vendor('transition', 'opacity #{_duration(transitions)} ease');
 			height: inherit;
-			left: 1.25em;
 			line-height: inherit;
 			position: absolute;
 			top: 0;
@@ -1408,14 +1407,17 @@ $baseurl: '{{ site.baseurl }}/images';
 				display: block;
 				height: inherit;
 				line-height: inherit;
-				margin-left: 60px;
+				margin-left: 1em;
 
 				@include breakpoint(small) {
 					font-size: 0.8em;
 				}
+			}
 			.top-logo{
-				width: 0.8em;
-				padding-top: 2px;			}
+				width: 2.5em;
+				height: auto;
+				padding-top: 10px;
+				margin-left: -2em;	
 			}
 		}
 

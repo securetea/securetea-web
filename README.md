@@ -5,7 +5,7 @@
 
 ## Contributing
 
-Please read [CONTRIBUTING.md]
+Please read [CONTRIBUTING Doc](/CONTRIBUTING.md)
 
 ### Getting Started
 

@@ -42,7 +42,7 @@ jekyll -v
 
 Please read [CONTRIBUTING.md]
 
-###How to Use
+### How to Use
 
 Install jekyll
 
@@ -50,20 +50,4 @@ Initially clone the Project
 Build the Project using command ``` jekyll b ```
 Serve the Project using command ``` jekyll s ```
 
-## Built With
-
-* [Jekyll](https://jekyllrb.com/) - The web framework used
-
-
-Credits:
-
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
-
-	Other:
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		background-size polyfill (github.com/louisremi)
-		Misc. Sass functions (@HugoGiraudel)
-		Respond.js (j.mp/respondjs)
-		Skel (skel.io)
+## Built With [<img src="https://jekyllrb.com/img/logo-2x.png" width="100" title="Telegram">](https://jekyllrb.com/)

@@ -1,19 +1,23 @@
-#securetea-web Website for securetea.org
+# Website for [SecureTea](https://securetea.org)
 
-SecureTea-Web is the website for OWASP SecureTea Project which is an 
-application designed to help secure a person's laptop or computer.
+## Built With [<img src="https://jekyllrb.com/img/logo-2x.png" width="100" title="Telegram">](https://jekyllrb.com/)
 
 
-## Getting Started
+## Contributing
+
+Please read [CONTRIBUTING.md]
+
+### Getting Started
 
 In order to run it in your local machine clone this project into your system Install the
 jekyll framework should be installed
 
-### Prerequisites
+#### Prerequisites
 
 In Ubuntu :
 
 Install ruby, the ruby development libraries, and the make command.
+
 ```
 sudo apt-get install ruby ruby-dev make gcc nodejs
 ```
@@ -38,16 +42,4 @@ jekyll -v
 
 ```
 
-## Contributing
 
-Please read [CONTRIBUTING.md]
-
-### How to Use
-
-Install jekyll
-
-Initially clone the Project
-Build the Project using command ``` jekyll b ```
-Serve the Project using command ``` jekyll s ```
-
-## Built With [<img src="https://jekyllrb.com/img/logo-2x.png" width="100" title="Telegram">](https://jekyllrb.com/)

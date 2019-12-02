@@ -37,7 +37,7 @@ youtube: Fsx3H5g_tPQ
 							<div class="content">
 								<h3>PyPi</h3>
 								<p>You can install SecureTea from PyPi package manager.</p>
-								<p id="p1" class="pip-head">pip install securetea</p> 
+								<p id="p1" class="pip-head">sudo python3 -m pip install securetea</p> 
 								<p>Please make sure all dependencies are installed if this fails.</p>
 							</div>
 						</section>
@@ -49,9 +49,9 @@ youtube: Fsx3H5g_tPQ
 								<p>Installing from GitHub involves the following steps:</p>
 								<p id="p1" class="git-head">git clone https://github.com/OWASP/SecureTea-Project.git</p> 
 								<p>Install python dependencies</p>
-								<p id="p1" class="git-head">pip install -r requirements.txt</p>
+								<p id="p1" class="git-head">sudo python3 -m pip install -r requirements.txt</p>
 								<p>Install SecureTea package</p>
-								<p id="p1" class="git-head">sudo python setup.py install</p>
+								<p id="p1" class="git-head">sudo python3 setup.py install</p>
 						</section>
 					</section>
 
@@ -69,14 +69,12 @@ youtube: Fsx3H5g_tPQ
 
 				    <section id="two" class="wrapper alt style3">
 				        <section class="spotlight">
-				        	<div class="video">
-								<center>
+				        	<div class="video" align="center">
 									{% include youtubePlayer.html id=page.youtube %}
-								</center>
 							</div>
 							<div class="content video-content">
-								<center><h3>OWASP - SecureTea Tool Project Demo</h3></center>
-								<center><p>Small IOT (Internet of Things) to notify users via twitter, whenever anyone accessing his laptop. This small application using the touchpad / mouse / wireless mouse and developed in python and tested on a linux. The purpose of this application is to warn the user (on twitter) whenever her laptop accessible. This small application was developed and tested in python in linux machine is likely to work well on the Raspberry Pi as well.</p></center>
+								<h3 align="center">OWASP - SecureTea Tool Project Demo</h3>
+								<p align="center">Small IOT (Internet of Things) to notify users via twitter, whenever anyone accessing his laptop. This small application using the touchpad / mouse / wireless mouse and developed in python and tested on a linux. The purpose of this application is to warn the user (on twitter) whenever her laptop accessible. This small application was developed and tested in python in linux machine is likely to work well on the Raspberry Pi as well.</p>
 							</div>
 						</section>
 				    </section>

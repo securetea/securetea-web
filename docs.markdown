@@ -94,17 +94,17 @@ Installing from GitHub involves the following steps:
 4.  Install SecureTea package:
 `$ sudo python3 setup.py install`
 
-If done, proceed to [After installation](#after-installation)
+
 
 #### Zip
 Installing from Zip involves the following steps:
 
 1.  Download the [zip](https://github.com/OWASP/SecureTea-Project/archive/master.zip).
 
-2.  Unzip using: `$ unzip master.zip`
+2.  Unzip using: `$ unzip SecureTea-Project-master.zip`
 
 3.  Navigate into the project directory:
-`$ cd SecureTea-Project`
+`$ cd SecureTea-Project-master `
 
 4.  Install python dependencies
 `$ sudo python3 -m pip install -r requirements.txt`
@@ -113,6 +113,8 @@ Installing from Zip involves the following steps:
 `$ sudo python3 setup.py install`
 
 Tip: Incase of any error during installation related to NetfilterQueue, try using `$ sudo apt-get install build-essential python-dev libnetfilter-queue-dev` to resolve the error.
+
+If done, proceed to After installation
 
 <br>
 <hr>
